@@ -1,0 +1,1 @@
+insert into user_detail(is_active, email, id, mobile_no, name, password, role)values(true, 'chandu@gmail.com', '1','8019271662', 'chandu', '$2a$10$K9LWCQvdXX//CcnBGyXNDOnoz39g5trVumk7oD1I/NZLxCB.jzPpO','ADMIN');
