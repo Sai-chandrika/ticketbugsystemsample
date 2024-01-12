@@ -23,7 +23,7 @@ public class RedisToken implements TokenBlacklistRepository{
 
     @Override
     public void addTokenToBlacklist(String user,String token) {
-        redisTemplate.opsForValue().set(user + token, "blacklisted", TOKEN_EXPIRATION_SECONDS, TimeUnit.SECONDS);
+        redisTemplate.opsForValue().set(token, "blacklisted", TOKEN_EXPIRATION_SECONDS, TimeUnit.SECONDS);
     }
 
     @Override

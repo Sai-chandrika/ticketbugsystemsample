@@ -6,11 +6,8 @@ import com.example.ticket_bug_system.entity.UserDetail;
 import com.example.ticket_bug_system.request.UserRequest;
 import com.example.ticket_bug_system.service.UserService;
 import com.nimbusds.jose.JOSEException;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -34,7 +31,7 @@ public class UserController {
     public GenericResponse save(@RequestBody @Valid UserRequest userRequest){
         return userService.saveUser(userRequest);
     }
-
+    @PostMapping("/signUp")
     public GenericResponse signUp(@RequestBody UserDetail request){
         return userService.signUp(request);
     }

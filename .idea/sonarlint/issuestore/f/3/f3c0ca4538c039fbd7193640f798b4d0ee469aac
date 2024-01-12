@@ -1,0 +1,49 @@
+
+_
+java:S68137"BRemove this field injection and use constructor injection instead.(êæÄŞ8ÒÕßÏ1
+_
+java:S68139"BRemove this field injection and use constructor injection instead.(êæÄŞ8ÒÕßÏ1
+_
+java:S6813;"BRemove this field injection and use constructor injection instead.(êæÄŞ8ÓÕßÏ1
+_
+java:S6813="BRemove this field injection and use constructor injection instead.(êæÄŞ8ÓÕßÏ1
+_
+java:S6813?"BRemove this field injection and use constructor injection instead.(êæÄŞ8ÓÕßÏ1
+]	java:S125a"<This block of commented-out lines of code should be removed.(Ğ©œ¡şÿÿÿÿ8áÕßÏ1
+M	java:S106¢"+Replace this use of System.out by a logger.(©¹½šüÿÿÿÿ8íÕßÏ1
+k
+java:S1128"IRemove this unused import 'com.example.ticket_bug_system.enums.RoleType'.(¹«ßüÿÿÿÿ8¹ãûßÏ1
+O
+java:S1128"2Remove this unused import 'com.opencsv.CSVReader'.(‚á•Æ8»ãûßÏ1
+_
+java:S1128"=Remove this unused import 'jakarta.annotation.PostConstruct'.(û²ñüşÿÿÿÿ8ÎãûßÏ1
+`
+java:S1128"DRemove this unused import 'jakarta.servlet.http.HttpServletRequest'.(õ38ÏãûßÏ1
+g
+java:S1128"ERemove this unused import 'jakarta.servlet.http.HttpServletResponse'.(ÂÓÕÇÿÿÿÿÿ8ÑãûßÏ1
+R
+java:S1128"0Remove this unused import 'lombok.SneakyThrows'.(¨³üÖûÿÿÿÿ8ÓãûßÏ1
+^
+java:S1128"ARemove this unused import 'org.springframework.core.io.Resource'.(¹ÒÁ8ÔãûßÏ1
+d
+java:S1128"GRemove this unused import 'org.springframework.core.io.ResourceLoader'.(çàÉÇ8ÖãûßÏ1
+i
+java:S1128"GRemove this unused import 'org.springframework.jdbc.core.JdbcTemplate'.(å ê‹ÿÿÿÿÿ8ÛãûßÏ1
+
+java:S1128 "pRemove this unused import 'org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler'.(Ø°Ò8ÜãûßÏ1
+e
+java:S1128""CRemove this unused import 'org.springframework.util.FileCopyUtils'.(õÌşİüÿÿÿÿ8ŞãûßÏ1
+P
+java:S1128#"3Remove this unused import 'java.io.BufferedReader'.(€é²Å8ßãûßÏ1
+\
+java:S1128$":Remove this unused import 'java.io.FileNotFoundException'.(·î™ùÿÿÿÿ8ßãûßÏ1
+Q
+java:S1128%"/Remove this unused import 'java.io.FileReader'.(Â¡¢äşÿÿÿÿ8àãûßÏ1
+R
+java:S1128&"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8àãûßÏ1
+[
+java:S1128'">Remove this unused import 'java.nio.charset.StandardCharsets'.(ï˜ŞÛ8àãûßÏ1
+M
+java:S1128*"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8àãûßÏ1
+M
+java:S1128+"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8áãûßÏ1

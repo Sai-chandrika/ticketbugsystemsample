@@ -23,7 +23,6 @@ public class UserModuleController {
     ModuleUserService moduleUserService;
 //    @PreAuthorize("hasAuthority('ADMIN')")
     @PostMapping("/save")
-
     public GenericResponse assignModuleToUser(@RequestBody UserModuleRequest moduleRequest){
         return moduleUserService.ssaveModuleToUser(moduleRequest);
 

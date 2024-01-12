@@ -1,0 +1,16 @@
+
+X
+java:S6813("BRemove this field injection and use constructor injection instead.(êæÄŞ
+X
+java:S6813*"BRemove this field injection and use constructor injection instead.(êæÄŞ
+V	java:S125@"<This block of commented-out lines of code should be removed.(óòêÓşÿÿÿÿ
+V	java:S125r"<This block of commented-out lines of code should be removed.(óòêÓşÿÿÿÿ
+8
+java:S5542…"Use a secure padding scheme.(à’åàûÿÿÿÿ
+2
+java:S5542‡"Use a secure padding scheme.(†ç€
+P
+java:S4719‰"9Replace charset name argument with StandardCharsets.UTF_8(·ò ‚
+F	java:S106‹"+Replace this use of System.out by a logger.(’¥Ïøÿÿÿÿ
+U
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(ØÂà¡úÿÿÿÿ

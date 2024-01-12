@@ -1,0 +1,17 @@
+
+J
+java:S1066+"/Merge this if statement with the enclosing one.(²ëÇúÿÿÿÿ
+X
+java:S6813 "BRemove this field injection and use constructor injection instead.(êæÄŞ
+X
+java:S6813""BRemove this field injection and use constructor injection instead.(êæÄŞ
+U
+java:S1854C":Remove this useless assignment to local variable "ticket".(­…›Öùÿÿÿÿ
+N
+java:S1854B"8Remove this useless assignment to local variable "user".(„ÙëŠ
+?
+java:S1481B")Remove this unused "user" local variable.(„ÙëŠ
+N
+java:S1854{"8Remove this useless assignment to local variable "user".(„ÙëŠ
+?
+java:S1481{")Remove this unused "user" local variable.(„ÙëŠ

@@ -1,0 +1,18 @@
+
+t
+java:S2293H"YReplace the type specification in this constructor call with the diamond operator ("<>").(α®ιωÿÿÿÿ
+o
+java:S2293I"YReplace the type specification in this constructor call with the diamond operator ("<>").(΅†Κψ
+o
+java:S2293K"YReplace the type specification in this constructor call with the diamond operator ("<>").(½―Ι
+k
+java:S1104"UMake secretKey a static final constant or non-public and provide accessors if needed.(”Ν›
+E
+java:S1444"/Make this "public static secretKey" field final(”Ν›
+7	java:S131,""Add a default case to this switch.(ÿΣΌ
+Q
+java:S2696C"6Make the enclosing method "static" or remove this set.( ΎΑ‰ωÿÿÿÿ
+7	java:S131P""Add a default case to this switch.(ÿΣΌ
+\
+java:S3457U"AFormat specifiers should be used instead of string concatenation.(ήπ ©ϋÿÿÿÿ
+E	java:S106U"+Replace this use of System.out by a logger.(ήπ ©ϋÿÿÿÿ
