@@ -37,9 +37,6 @@ UserService userService;
 @Autowired
     UserController userController;
     MockMvc mockMvc;
-    UserRequest userRequest = new UserRequest();
-    UserDetail userDetail = new UserDetail();
-    UserLogin login = new UserLogin();
 
     @BeforeEach
     void setUp() {
@@ -52,7 +49,6 @@ UserService userService;
     @Test
     void save() throws Exception {
         GenericResponse genericResponse = new GenericResponse(HttpStatus.OK.value(),"save successfully");
-        userService.saveUser(userRequest);
         when(userService.saveUser(any(UserRequest.class))).thenReturn(genericResponse);
         mockMvc.perform(post("/user/save").contentType(MediaType.APPLICATION_JSON)
                 .content(new ObjectMapper().writeValueAsString(genericResponse))).andExpect(status().isOk());
@@ -60,17 +56,17 @@ UserService userService;
 
     @Test
     void signUp() throws Exception {
-        GenericResponse genericResponse = new GenericResponse("sign-up successfully");
-        when(userService.signUp(userDetail)).thenReturn(genericResponse);
+        GenericResponse genericResponse = new GenericResponse(HttpStatus.OK.value(),"sign-up successfully");
+        when(userService.signUp(any(UserDetail.class))).thenReturn(genericResponse);
         mockMvc.perform(post("/user/signUp").contentType(MediaType.APPLICATION_JSON)
-                .content(new ObjectMapper().writeValueAsString(userDetail)).content(status().isOk().toString()));
+                .content(new ObjectMapper().writeValueAsString(genericResponse))).andExpect(status().isOk());
     }
 
     @Test
     void login() throws Exception {
-        GenericResponse genericResponse = new GenericResponse("sign-up successfully");
-        when(userService.login(login)).thenReturn(genericResponse);
+        GenericResponse genericResponse = new GenericResponse(HttpStatus.OK.value(),"login successfully");
+        when(userService.login(any(UserLogin.class))).thenReturn(genericResponse);
         mockMvc.perform(post("/user/login").contentType(MediaType.APPLICATION_JSON)
-                .content(new ObjectMapper().writeValueAsString(userDetail)).content(status().isOk().toString()));
+                .content(new ObjectMapper().writeValueAsString(genericResponse))).andExpect(status().isOk());
     }
 }
